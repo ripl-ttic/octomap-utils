@@ -6,7 +6,9 @@ package octomap;
 struct raw_t
 {
 	int64_t utime; 
-	
+
+	double transform[4][4];
+
 	int32_t length;
 	byte    data[length];
 }
