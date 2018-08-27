@@ -9,7 +9,7 @@ endif()
 add_library(octomap-util SHARED
     octomap_util.cpp)
 
-set(REQUIRED_PACKAGES occ-map octomap laser-util lcmtypes_octomap-utils)
+set(REQUIRED_PACKAGES occ-map octomap laser-utils lcmtypes_octomap-utils)
 pods_use_pkg_config_packages(octomap-util ${REQUIRED_PACKAGES})
 
 
